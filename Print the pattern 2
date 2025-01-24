@@ -15,7 +15,6 @@ Print the pattern 2
 
 
 
-
 public class thrd {
 
     public static void main(String[] args) {
