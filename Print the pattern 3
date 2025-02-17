@@ -11,7 +11,6 @@ Print the pattern 3
 */
 
 
-
 public class second {
 
     public static void main(String[] args) {
