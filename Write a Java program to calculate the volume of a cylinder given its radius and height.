@@ -1,0 +1,35 @@
+/*
+
+Write a Java program to calculate the volume of a cylinder given its radius and height.
+
+Formula:
+
+V=π×r2×h
+You can use Math.PI for the computation.
+
+Sample Test Cases:-
+
+	                    Input	          Output
+
+Test Case 1	            1          Volume is: 3.14
+                        1
+
+Test Case 2	          3.5          Volume is: 192.42
+                      5.0
+
+*/
+
+
+import java.util.Scanner;
+
+public class W01_P2 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        double radius = in.nextDouble();
+        double height = in.nextDouble();
+double volume = Math.PI * radius * radius * height;
+// Display the result
+    System.out.printf("Volume is: %.2f", volume);
+    in.close();
+  }
+}
