@@ -1,0 +1,30 @@
+/*
+
+Complete the code fragment that reads two integer inputs from keyboard and compute the quotient and remainder.
+
+Sample Test Cases :-
+
+                  |        Input	       |                Output
+-------------------------------------------------------------------------
+Test Case 1	      |         -756         |        The Quotient is = -94
+                  |           8          |        The Remainder is = -4
+-------------------------------------------------------------------------
+Test Case 2	      |          556         |        The Quotient is = 61
+                  |           9          |        The Remainder is = 7
+*/
+
+
+import java.util.Scanner;
+public class W01_P4{
+       public static void main(String[] args) {
+	   Scanner sc = new Scanner(System.in);
+	   int x=sc.nextInt();
+	   int y=sc.nextInt();
+int quotient=x/y;
+        int remainder=x%y;
+        System.out.println("The Quotient is = " + quotient); 
+        System.out.print("The Remainder is = " + remainder);
+sc.close();
+sc.close();
+  }
+}
