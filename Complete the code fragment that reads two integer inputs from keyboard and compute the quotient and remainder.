@@ -14,6 +14,7 @@ Test Case 2	      |          556         |        The Quotient is = 61
 */
 
 
+
 import java.util.Scanner;
 public class W01_P4{
        public static void main(String[] args) {
