@@ -1,0 +1,38 @@
+/*
+
+Write a Java program to print the multiplication table of a given number up to 5.
+
+Sample Test Cases :-
+                            Input               Output
+
+
+Test Case 1	                 10               10 x 1 = 10
+                                              10 x 2 = 20
+                                              10 x 3 = 30
+                                              10 x 4 = 40
+                                              10 x 5 = 50
+
+
+Test Case 2	                  5               5 x 1 = 5
+                                              5 x 2 = 10
+                                              5 x 3 = 15
+                                              5 x 4 = 20
+                                              5 x 5 = 25
+
+*/
+
+
+
+import java.util.Scanner;
+
+public class W01_P3 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int number = in.nextInt();
+// Print the multiplication table
+        for (int i = 1; i <= 5; i++) {
+            System.out.printf("%d x %d = %d\n", number, i, number * i);
+        }
+in.close();
+    }
+}
